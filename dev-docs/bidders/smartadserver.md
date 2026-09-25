@@ -52,7 +52,7 @@ The Smart AdServer bidder adapter requires setup and approval from the Equativ (
 | `video` | optional | Parameter object for instream video. See [video Object](#smartadserver-video-object) | `{}` | `object` |
 | `schain` | optional | Supply Chain | `'1.0,1!exchange1.com,1234,1,bid-request-1,publisher,publisher.com'` | `string` |
 
-**Note:** For Prebid.js the site, page and format identifiers have to all be provided. For Prebid Server, `placementuuid` is the preferred way to identify inventory; the site, page and format identifiers are kept for the ramp-up and, if used, have to all be provided or all empty.
+**Note:** On Prebid Server this adapter is also reachable under the bidder code `equativ` (an alias sharing these params). For Prebid.js the site, page and format identifiers have to all be provided. For Prebid Server, `placementuuid` is the preferred way to identify inventory; the site, page and format identifiers are kept for the ramp-up and, if used, have to all be provided or all empty.
 
 <a name="smartadserver-video-object"></a>
 
